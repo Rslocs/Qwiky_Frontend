@@ -1,0 +1,54 @@
+.SellForm form {
+	display: flex;
+	flex-direction: column;
+}
+.SellForm__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SellForm__container span {
+  color: #FF3D00;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.SellForm form label {
+	font-size: 0.8rem;
+	margin-bottom: 4px;
+}
+
+.SellForm form input,
+.SellForm form select {
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.SellForm form select {
+	height: 2rem;
+}
+
+.SellForm__image-preview-container {
+	width: 100%;
+	min-height: 200px;
+	border: thin solid #333;
+	background-color: white;
+	border-radius: 5px;
+
+	display: flex;
+	align-items: center;
+
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.SellForm__image-preview {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}

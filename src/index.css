@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f7f7f8;
+}
+
+.btn {
+  text-decoration: none;
+  color: #FF3D00;
+  background-color: white;
+  border: thin solid #FF3D00;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FF3D00;
+  color: white;
+}
